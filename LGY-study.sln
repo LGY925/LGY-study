@@ -4,7 +4,7 @@ VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Array_Enum_Struct", "5. Array_FileName\5. Array_Enum_Struct.csproj", "{9E6B037A-1763-B21E-1399-019E3A0822A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Class_Memory", "6. Class_Memory\6. Class_Memory.csproj", "{FEF97E8A-1F2D-602F-9DDC-67B3C0852697}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Class_Memory_Namespace", "6. Class_Memory\6. Class_Memory_Namespace.csproj", "{FEF97E8A-1F2D-602F-9DDC-67B3C0852697}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Variable_Constant_Data_Type", "1. Variable_Constant_Data_Type\1. Variable_Constant_Data_Type.csproj", "{066A0DD7-C8E4-759B-7DCE-1A6EE7774C3F}"
 EndProject
