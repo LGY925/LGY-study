@@ -1,4 +1,4 @@
-﻿namespace _6.Class_Memory
+﻿namespace _6.Class_Memory_Namespace
 {
     internal class Class
     {
@@ -53,7 +53,6 @@
 
         #endregion
 
-
         #region 클래스
         /*****************************************************************\
          * 클래스 (class) 
@@ -64,36 +63,63 @@
          * 참조 : 원본을 가리키고 있음 == 원본의 주소를 가지고 있음
         \*****************************************************************/
 
+        // <클래스 구성>
+        // class 클래스이름 { 클래스내용 }
+        // 클래스 내용으로는 변수와 함수가 포함 가능
 
 
+        #endregion
 
-        class Player
+        #region 클래스 생성자
+        public class Monster
         {
-            // 변수(명사) : 정보
-            private int Level=1;
-            private int attackPoint=10;
-
-            Skill qskill;
-            // 함수(동사) : 행동
-            public void Attack(Monster monster)
+            public string name;
+            public int hp;
+            
+            // <클래스 생성자>
+            // 반환형이 없는 클래스이름의 함수를 생성자라 하며 클래스의 인스턴스를 만들 때 호출 되는 역활로 사용
+            // 인스턴스 의 생성자는 new 키워드를 사용하여 호출
+            //기본 생성자
+            public Monster()
             {
-                Console.WriteLine("플레이어가 공격합니다.");
-                monster.TakeHit(attackPoint);
+                Console.WriteLine("몬스터가 생성되었습니다.");
+                name = "몬스터";
+                hp = 100;
+                Console.WriteLine("{0}의 체력 : {1}",name, hp);
+            }
+            // 자동 생성
+
+            public Monster(string name0, int hp0) 
+            {
+                Console.WriteLine("몬스터가 생성되었습니다.");
+                name = name0;
+                hp = hp0;
+                Console.WriteLine("{0}의 체력 : {1}", name, hp);
             }
 
-        }
-       
-        class Skill
-        {
+            public Monster(string _name)
+            {
+                Console.WriteLine("몬스터가 생성되었습니다.");
+                name = _name;
+                switch (_name)
+                {
+                    case "슬라임":                        
+                        hp = 50;
+                        break;
+                    case "오크":                        
+                        hp = 200;
+                        break;
+                    case "드래곤":                        
+                        hp = 500;
+                        break;
+                    case "보스":                        
+                        hp = 1000;
+                        break;
+                }
+                Console.WriteLine("{0}의 체력 : {1}", name, hp);
+            }
 
-        }
-
-        class Monster
-        {
-           
-            private int hp = 10;
-        
-            
+            // 무조건 지정해야 생성
             public void TakeHit(int attackPoint)
             {
                 Console.WriteLine("몬스터가 공격받았습니다.");
@@ -113,21 +139,54 @@
                 Console.WriteLine("몬스터가 죽었습니다.");
             }
         }
+        #endregion
 
+        #region 클래스와 구조체 차이
+        class ClassType
+        {
+            public int value;
+        }
 
+        struct structType
+        {
+            public int value;
+        }
 
         #endregion
 
-
+        #region 클래스 예시
         static void Main(string[] args)
         {
-            
-            Player player = new Player();
+            @namespace player;                      //지역변수를 생성하고 null(아무것도 없음) 참조)
+            player = new @namespace();              //Player 클래스의 인스턴스를 생성하고 player에 대입
+            player.name = "플레이어";            //player의 name에 "플레이어" 대입
             Monster monster = new Monster();
-            
-            player.Attack(monster);     //player가 monster를 공격
-            player.Attack(monster);
+            Monster slime = new Monster("슬라임");
+            Monster orc = new Monster("오크");
+            Monster dragon = new Monster("드래곤");
+            Monster boss = new Monster("보스");
+
+            player.Attack();
 
         }
+        #endregion
+
+        #region 클래스와 구조체 차이 예시
+        static void Main0(string[] args)
+        {
+            ClassType classType1 = new ClassType();
+            ClassType classType2 = classType1;
+            classType1.value = 10;
+            classType2.value = 20;
+            Console.WriteLine("classType1.value : {0}", classType1.value);
+            Console.WriteLine("classType2.value : {0}", classType2.value);
+            structType structType1 = new structType();
+            structType structType2 = structType1;
+            structType1.value = 10;
+            structType2.value = 20;
+            Console.WriteLine("structType1.value : {0}", structType1.value);
+            Console.WriteLine("structType2.value : {0}", structType2.value);
+        }
+        #endregion
     }
 }

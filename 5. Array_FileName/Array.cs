@@ -1,4 +1,4 @@
-﻿namespace _5.Array_FileName
+﻿namespace _5.Array_Enum_Struct
 {
     internal class Array
     {

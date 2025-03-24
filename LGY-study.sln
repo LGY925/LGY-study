@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Array_FileName", "5. Array_FileName\5. Array_FileName.csproj", "{9E6B037A-1763-B21E-1399-019E3A0822A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Array_Enum_Struct", "5. Array_FileName\5. Array_Enum_Struct.csproj", "{9E6B037A-1763-B21E-1399-019E3A0822A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Class_Memory", "6. Class_Memory\6. Class_Memory.csproj", "{FEF97E8A-1F2D-602F-9DDC-67B3C0852697}"
 EndProject

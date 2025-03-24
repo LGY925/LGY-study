@@ -1,6 +1,6 @@
-﻿namespace _5.Array_FileName
+﻿namespace _5.Array_Enum_Struct
 {
-    class FileName
+    class Enum_Struct
     {
         #region 열거형
        /****************************************************************\
