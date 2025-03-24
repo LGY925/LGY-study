@@ -157,8 +157,8 @@
         #region 클래스 예시
         static void Main(string[] args)
         {
-            @namespace player;                      //지역변수를 생성하고 null(아무것도 없음) 참조)
-            player = new @namespace();              //Player 클래스의 인스턴스를 생성하고 player에 대입
+            Namespace player;                      //지역변수를 생성하고 null(아무것도 없음) 참조)
+            player = new Namespace();              //Player 클래스의 인스턴스를 생성하고 player에 대입
             player.name = "플레이어";            //player의 name에 "플레이어" 대입
             Monster monster = new Monster();
             Monster slime = new Monster("슬라임");
