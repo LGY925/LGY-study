@@ -2,7 +2,7 @@
 
 namespace _250318
 {
-    internal class Program
+    internal class Game1
     {
         #region 좌표
         struct Position
