@@ -1,10 +1,10 @@
-﻿namespace LGY_Run
+﻿namespace LGY_study
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("안녕하세요!!");
+            Console.WriteLine("Hello, World!");
         }
     }
 }
