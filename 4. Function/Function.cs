@@ -1,4 +1,4 @@
-﻿namespace _250314
+﻿namespace _4.Function
 {
     internal class Function
     {

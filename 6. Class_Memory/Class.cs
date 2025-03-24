@@ -1,4 +1,4 @@
-﻿namespace _250324
+﻿namespace _6.Class_Memory
 {
     internal class Class
     {

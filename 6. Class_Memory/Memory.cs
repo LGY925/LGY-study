@@ -1,4 +1,4 @@
-﻿namespace Memory
+﻿namespace _6. Class_Memory
 {
     internal class Memory
     {

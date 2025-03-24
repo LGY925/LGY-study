@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace _250318
+﻿namespace _Game1
 {
     internal class Game1
     {

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace _250317
+﻿namespace _5.Array_FileName
 {
     internal class Array
     {

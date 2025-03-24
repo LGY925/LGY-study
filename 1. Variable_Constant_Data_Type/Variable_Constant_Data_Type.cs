@@ -1,4 +1,4 @@
-﻿namespace _250311
+﻿namespace _1.Variable_Constant_Data_Type
 {
     internal class Variable_Constant_Data_Type
     {
