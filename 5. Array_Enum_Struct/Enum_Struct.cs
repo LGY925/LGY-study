@@ -135,6 +135,10 @@
                 string input0 = Console.ReadLine();
                 int value = int.Parse(input0);
 
+                Console.WriteLine("{0} 스킬을 사용합니다.", skills[value].name);
+                Console.WriteLine("{0} 초 쿨타임", skills[value].cooltime);
+                Console.WriteLine("마나가 {0} 감소했습니다.", skills[value].cost);
+                Console.WriteLine("공격 범위 {0}", skills[value].range);
             }    
 
 

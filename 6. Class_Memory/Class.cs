@@ -2,6 +2,7 @@
 {
     internal class Class
     {
+
         #region 전체적인 개념
         /****************************************************************\
          * 객체 (Object)
@@ -53,7 +54,15 @@
 
         #endregion
 
+        #region 접속사의 의미
+
+        // public : 모든 클래스에서 허락
+        // private : 외부 클래스에서 변경 불가
+
+        #endregion
+
         #region 클래스
+
         /*****************************************************************\
          * 클래스 (class) 
          * 
@@ -63,14 +72,14 @@
          * 참조 : 원본을 가리키고 있음 == 원본의 주소를 가지고 있음
         \*****************************************************************/
 
+        #endregion
+
+        #region 클래스 생성자
+
         // <클래스 구성>
         // class 클래스이름 { 클래스내용 }
         // 클래스 내용으로는 변수와 함수가 포함 가능
 
-
-        #endregion
-
-        #region 클래스 생성자
         public class Monster
         {
             public string name;
@@ -154,7 +163,6 @@
 
         #endregion
 
-        #region 클래스 예시
         static void Main(string[] args)
         {
             Namespace player;                      //지역변수를 생성하고 null(아무것도 없음) 참조)
@@ -169,8 +177,7 @@
             player.Attack();
 
         }
-        #endregion
-
+        
         #region 클래스와 구조체 차이 예시
         static void Main0(string[] args)
         {
@@ -188,5 +195,6 @@
             Console.WriteLine("structType2.value : {0}", structType2.value);
         }
         #endregion
+
     }
 }

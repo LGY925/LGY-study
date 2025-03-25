@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static _6.Class_Memory_Namespace.Class;
-
-namespace _6.Class_Memory_Namespace
+﻿namespace _6.Class_Memory_Namespace
 {
    public class Namespace
    {
