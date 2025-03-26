@@ -1,8 +1,10 @@
-﻿namespace _5.Array_Enum_Struct
+﻿using System.Text;
+
+namespace _5.Array_Enum_Struct
 {
     internal class Array
     {
-        static void Main1(string[] args)
+        static void Main0(string[] args)
         {
             #region 배열   
 
@@ -131,9 +133,10 @@
             array[2] = 999;
         }
 
-        static void  IntTest(ref int value)
+        static void IntTest(ref int value)
         {
             value = value + 10;
         }
+        
     }
 }
