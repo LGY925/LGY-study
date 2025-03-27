@@ -4,7 +4,7 @@
     {
         
 
-        static void Main(string[] args)
+        static void Main0(string[] args)
         {
             string test = "hell world";
             int count = test.WordCount();
