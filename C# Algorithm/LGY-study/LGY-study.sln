@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Algorithm", "1. Algorithm\1. Algorithm.csproj", "{3CDFE4AA-676B-4445-89FC-A66A3E331D57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Algorithm", "1. Algorithm\01. Algorithm.csproj", "{3CDFE4AA-676B-4445-89FC-A66A3E331D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. List_Linear", "2. List\2. List_Linear.csproj", "{99835494-564F-4C70-9C4E-F59ABB494A1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. List_Linear", "2. List\02. List_Linear.csproj", "{99835494-564F-4C70-9C4E-F59ABB494A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. LinkedList_Linear", "3. LinkedList\3. LinkedList_Linear.csproj", "{D9FDA47B-9AA6-4DD7-BF24-0BC7612F2D2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LinkedList_Linear", "3. LinkedList\03. LinkedList_Linear.csproj", "{D9FDA47B-9AA6-4DD7-BF24-0BC7612F2D2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Stack_Linear", "4. Stack\4. Stack_Linear.csproj", "{29346201-D99D-4EBC-B715-0215D29404F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Stack_Linear", "4. Stack\04. Stack_Linear.csproj", "{29346201-D99D-4EBC-B715-0215D29404F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Queue_Linear", "5. Queue\5. Queue_Linear.csproj", "{C4699B8E-B35A-4891-A9E3-BA5D36143FBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Queue_Linear", "5. Queue\05. Queue_Linear.csproj", "{C4699B8E-B35A-4891-A9E3-BA5D36143FBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. HashTable_Linear", "6. HashTable\6. HashTable_Linear.csproj", "{B9AE218F-202B-46B5-84A3-74BD520A23B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. HashTable_Linear", "6. HashTable\06. HashTable_Linear.csproj", "{B9AE218F-202B-46B5-84A3-74BD520A23B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Graph_NonLinear", "7. Graph\7. Graph_NonLinear.csproj", "{B956E653-223B-4B87-A391-0D6F48E76283}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Graph_NonLinear", "7. Graph\07. Graph_NonLinear.csproj", "{B956E653-223B-4B87-A391-0D6F48E76283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Tree_NonLinear", "8. Tree\8. Tree_NonLinear.csproj", "{E145093D-CF11-4AD8-8FA7-1BAD8F186ADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Tree_NonLinear", "8. Tree\08. Tree_NonLinear.csproj", "{E145093D-CF11-4AD8-8FA7-1BAD8F186ADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Recursion", "9. Recursion\09. Recursion.csproj", "{8D86AAAB-8F3C-4A36-BF98-04FF9F95AA2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Sorting", "10. Sorting\10. Sorting.csproj", "{3903772D-1835-4774-9017-71644E23F12B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{E145093D-CF11-4AD8-8FA7-1BAD8F186ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E145093D-CF11-4AD8-8FA7-1BAD8F186ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E145093D-CF11-4AD8-8FA7-1BAD8F186ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D86AAAB-8F3C-4A36-BF98-04FF9F95AA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D86AAAB-8F3C-4A36-BF98-04FF9F95AA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D86AAAB-8F3C-4A36-BF98-04FF9F95AA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D86AAAB-8F3C-4A36-BF98-04FF9F95AA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3903772D-1835-4774-9017-71644E23F12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3903772D-1835-4774-9017-71644E23F12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3903772D-1835-4774-9017-71644E23F12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3903772D-1835-4774-9017-71644E23F12B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
