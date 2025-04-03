@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Recursion", "9. Recursi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Sorting", "10. Sorting\10. Sorting.csproj", "{3903772D-1835-4774-9017-71644E23F12B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Searching", "11. Searching\11. Searching.csproj", "{7985EEE7-12E2-49CA-8737-5B10D327D137}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{3903772D-1835-4774-9017-71644E23F12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3903772D-1835-4774-9017-71644E23F12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3903772D-1835-4774-9017-71644E23F12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7985EEE7-12E2-49CA-8737-5B10D327D137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7985EEE7-12E2-49CA-8737-5B10D327D137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7985EEE7-12E2-49CA-8737-5B10D327D137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7985EEE7-12E2-49CA-8737-5B10D327D137}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
