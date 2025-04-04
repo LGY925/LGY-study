@@ -131,8 +131,7 @@ namespace _11._Searching
                 }
                        
             }
-        }
-        // 만드는 중
+        }  
         public static void DFS0(bool[,] graph, int start, out bool[] visited, out int[] parents)
         {
             int size = graph.GetLength(0);
@@ -151,24 +150,21 @@ namespace _11._Searching
 
             stack.Push(vertex);
             visited[vertex] = true;
-            while (stack.Count > 0)
+            do
             {
-                
                 for (int i = 0; i < size; i++ )
                 {
                     if(graph[vertex,i] == true &&
                         visited[i] == false)
                     {
+                        parents[i] = vertex;
                         vertex = i;
                         visited[vertex] = true;
-                        parents[i] = vertex;
                         stack.Push(vertex);
                     }
                 }
                 vertex = stack.Pop();
-            }
-
-
+            }while (stack.Count > 0);
         }
 
         // <다익스트라 알고리즘>
@@ -224,7 +220,6 @@ namespace _11._Searching
                 }
             }
         }
-        
         static void Main(string[] args)
         {
             Stopwatch sw = new Stopwatch();
@@ -263,7 +258,7 @@ namespace _11._Searching
             // DFS 탐색
             Console.WriteLine("<DFS>");
             sw2.Start();
-            DFS(graph, 0, out bool[] DFSvisited, out int[] DFSparents);
+            DFS0(graph, 0, out bool[] DFSvisited, out int[] DFSparents);
             sw2.Stop();
             Console.WriteLine("{0} {1} {2}", "vertex", "visited", "parent");
             for (int i = 0; i < graph.GetLength(0); i++)
@@ -310,7 +305,6 @@ namespace _11._Searching
             graph[0, 3] = true;
             graph[1, 0] = true;
             graph[1, 2] = true;
-            graph[0, 1] = true;
             graph[1, 3] = true;
             graph[2, 0] = true;
             graph[2, 4] = true;
