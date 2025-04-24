@@ -11,7 +11,7 @@ namespace Game10.Scenes
     {
         public override void Render()
         {
-            Console.WriteLine("당신은 "
+            Console.WriteLine("당신은 ");
         }
         public override void Choice()
         {
